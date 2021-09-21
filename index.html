@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/cssindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="shortcut icon" href="images/raizen.svg" type="image/x-icon" />
+    <title>Universidade Raízen</title>
+</head>
+<body>
+    <div id="header">
+        <nav class="topo">
+            <div class="img-esq">
+                <h3>UNIVERSIDADE</h3>
+                <img class="img-raizen" src="images/raizenmenor.svg" alt="logoRaizen">
+                <span class="divisor"></span>
+                
+            </div>
+            <div class="img-disse">
+                <img class="img-disseminadores" src="images/disseminadores.png" alt="image">
+            </div>
+            <div class="img-direito">
+                <div class="menu">
+                    <span class="ini-menu">nome disseminador</span>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                <!-- ----------------INCLUINDO MENU DROPDOWN------------->
+                 <!-- * INÍCIO - Menu Dropdown -->
+                 
+                <!-- * FIM - Menu Dropdown -->
+                 <!-- ----------------INCLUINDO MENU DROPDOWN------------->
+                <div class="sino">
+                    <img  class="iconFeather" src="images/bell.svg" />
+                    <div class="bola-aviso">
+                        <span class="aviso">5</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+     <!-----------------------------Bloco superior do corpo da página----------------------------------------->
+     <div class="wrapper">
+        <div>
+            <p class="prox-encontro">PRÓXIMO ENCONTRO</p>
+        </div>
+        <div class="box-encontro">
+            <p class="encontro-mes">JUN</p>
+            <p class="encontro-dia">16</p>
+            <p class="encontro-hora">14:00</p>
+            <img class="encontro-img" src="images/proxEncontro.png">
+            <span class="mais">+</span>
+            <p class="chamada1">NOME DO</p>
+            <P class="chamada2">DISSEMINADOR</P>
+            <p class="convite">#RH #Comportamento #Pessoas</p>
+            <div>
+                <button class="btn-link" type="" name="link" value="">link da reunião</button>
+            </div>
+        </div>
+        <div class="encontros-antigos">
+            <div class="box-datas">
+                <p class="datas-antigas">ENCONTROS ANTIGOS</p>
+                <P class="mes-antigos">jun</P>
+                <p class="dias-antigos">16</p>
+                <p class="horas-antigas">09:00</p>
+                <span class="divisa"></span>
+                <p class="data-nome">Nome-Tutor</p>
+                <p class="data-disseminador">NOME DO DISSEMINADOR</p>
+                <div class="arrow">
+                   <img class="arrowRight" src="images/arrowRight.svg" alt="seta" />
+                </div>
+                <span class="barra"></span>
+
+            </div>
+            <div class="encontros-antigos2">
+                <p class="mes-antigos2">jun</p>
+                <p class="dias-antigos2">08</p>
+                <p class="horas-antigos2">09:00</p>
+                <span class="divisa2"></span>
+                <p class="data-nome2">Nome-Tutor</p>
+                <p class="data-disseminador2">NOME DO DISSEMINADOR</p>
+            </div>
+            <span class="borda-antigo"></span>
+        </div>
+         <!-------------------------------Campo de pesquisa----------------------------------------------->
+         <div class="campo-pesquisa">
+            <p class="texto-pesquisa">o que você quer saber?</p>
+            <img class="lupa" src="images/search.svg" alt="lupa">
+            <input class="pesquisar" placeholder="Pesquisar">
+        </div>
+         <!--------------------------------Campo dos quadros disseminadores-------------------------------->
+         <div class="card1">
+            <img class="thumbernail" src="images/card1.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card2">
+            <img class="thumbernail" src="images/card2.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card3">
+            <img class="thumbernail"  src="images/card3.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card4">
+            <img class="thumbernail" src="images/card4.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card5">
+            <img class="thumbernail"  src="images/card5.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card6">
+            <img class="thumbernail"  src="images/card6.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card7">
+            <img class="thumbernail"  src="images/card7.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+        <div class="card8">
+            <img class="thumbernail"  src="images/card8.png" alt="homem">
+            <p class="titulo_quadro">NOME DISSEMINADOR</p>
+            <P class="quadro_hashtag">#RH #Comportamento #Pessoas</P>
+            <img class="estrela" src="images/star2.svg" alt="star">
+            <p class="nota">4,8</p>
+            <div class="card-hover">
+                <p class="hover-conteudo">NOME DISSEMINADOR</p>
+                <P class="hover-convite">#RH #Comportamento #Pessoas</P>
+                <p class="hover-texto">Qu earum corrupti ut natus sint quo consequatur doloremque.</p>
+                <button id="btn-agendar" class="btn-agendar" onclick="showModal()">agendar</button>
+            </div>
+        </div>
+
+        <!--***********FOOTER***************************************-->
+        <div>
+            <button class="btn-footer">CARREGAR MAIS</button>
+        </div>
+        <div class="rodape"></div>
+        <div class="copyright">2021 © Todos os direitos reservados - teya.us</div>
+    </div>
+
+    
+     <!-- Import do Script -->
+     <script src="script/js.js" type="text/javascript"></script>
+</body>
+
+</html>
